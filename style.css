@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? família= Lexend+Deca:wght@100;200;300;400;500;600;700;800;900 &family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900 & display=trocar');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  padding: 10px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 100px;
+  margin: auto;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+#titulo h1,
+p {
+  color: white;
+}
+
+#input_pesquisa {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 58%;
+  height: 45px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+#input_pesquisa::placeholder {
+  color: white;
+  padding: 10px;
+}
+body {
+  background-color: #f9f9f9;
+  font-family: 'Lexend Deca', sans-serif;
+}
+main p {
+  color: black;
+}
+.conteudo {
+  width: 58%;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.cima {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+h3 {
+  margin-bottom: 15px;
+}
